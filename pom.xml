@@ -19,6 +19,7 @@
     <properties>
         <skynet-cli.version>T-900.1</skynet-cli.version>
         <skynet-maven-plugin.version>T-900.1</skynet-maven-plugin.version>
+        <skynet.country>mx</skynet.country>
     </properties>
 
   <modules>
