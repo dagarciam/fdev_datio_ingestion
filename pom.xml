@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.datio.skynet</groupId>
         <artifactId>skynet-parent</artifactId>
-        <version>T-900.1</version>
+        <version>T-900.2</version>
     </parent>
 
     <groupId>com.datio.fdev</groupId>
@@ -17,8 +17,8 @@
     <name>Parent fdev-ingestion</name>
 
     <properties>
-        <skynet-cli.version>T-900.1</skynet-cli.version>
-        <skynet-maven-plugin.version>T-900.1</skynet-maven-plugin.version>
+        <skynet-cli.version>T-900.2</skynet-cli.version>
+        <skynet-maven-plugin.version>T-900.2</skynet-maven-plugin.version>
         <skynet.country>mx</skynet.country>
     </properties>
 
