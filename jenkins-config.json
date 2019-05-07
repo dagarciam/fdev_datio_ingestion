@@ -1,5 +1,4 @@
 {
-  "validationMail" : "example@datiobd.com",
-  "arqMail"        : "nserenodatiobdcom",
-  "schemas"        : false
+  "projectType": "SKYNET_INGEST",
+  "branchExecForced": true
 }
