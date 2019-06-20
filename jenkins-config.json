@@ -1,4 +1,7 @@
 {
-  "projectType": "SKYNET_INGEST",
-  "branchExecForced": true
+  "validationMail" : "example@datiobd.com",
+  "arqMail"        : "nserenodatiobdcom",
+  "schemas"        : false
+
 }
+
