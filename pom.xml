@@ -18,7 +18,7 @@
 
     <properties>
         <skynet-cli.version>T-900.3</skynet-cli.version>
-        <skynet-maven-plugin.version>T-900.3</skynet-maven-plugin.version>
+        <skynet-maven-plugin.version>T-900.4</skynet-maven-plugin.version>
         <skynet.country>pe</skynet.country>
         <skynet.governance.endpoint>http://datadictionary.bbva.com</skynet.governance.endpoint>
     </properties>
