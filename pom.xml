@@ -20,7 +20,7 @@
         <skynet-cli.version>T-900.3</skynet-cli.version>
         <skynet-maven-plugin.version>T-900.3</skynet-maven-plugin.version>
         <skynet.country>mx</skynet.country>
-        <skynet.governance.endpoint>http://datadictionary-pre.bbva.com</skynet.governance.endpoint>
+        <skynet.governance.endpoint>http://datadictionary.bbva.com</skynet.governance.endpoint>
     </properties>
 
   <modules>
