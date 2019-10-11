@@ -1,0 +1,21 @@
+{
+    "configuration" : {
+        "params" : {
+            "artifactUrl" : "${repository.endpoint}/spark-global-libs-release-local/com/datio/kirby/kirby-ingestion/${process.version}/kirby-ingestion-${process.version}-jar-with-dependencies.jar",
+            "configUrl" : "${repository.endpoint}/${repository.repo}/kirby/mx/fdev/raw/clientes/${version}/clientes.conf",
+            "mainClass" : "com.datio.kirby.Launcher",
+            "repoSecurity" : "artifactory",
+            "sparkHistoryEnabled" : "true",
+            "tokenizationEnabled" : "false"
+        },
+        "size" : "XS"
+    },
+    "description" : "Job fdev-mx-krb-inr-clientesp-01 created with Skynet.",
+    "jobName" : "fdev-mx-krb-inr-clientesp-01",
+    "jobVersion" : "${job.version}",
+    "runtime" : {
+        "id" : "spark",
+        "processing" : "batch",
+        "version" : "2.2.1"
+    }
+}

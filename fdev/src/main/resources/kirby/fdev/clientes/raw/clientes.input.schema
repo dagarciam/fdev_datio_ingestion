@@ -1,0 +1,52 @@
+{
+  "namespace": "FDEV",
+  "name": "t_dem_clientes",
+  "doc": "Tabla que muestra la informacion  basica de los clientes",
+  "database": "raw",
+  "type": "record",
+  "fields": [{
+    "name": "policy_id",
+    "type": "string",
+    "legacyName": "CVE_NUMPOLFN",
+    "logicalFormat": "ALPHANUMERIC(18)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "sequential_policy_id",
+    "type": "string",
+    "legacyName": "CVE_IDEPOL",
+    "logicalFormat": "DECIMAL(22)",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "22",
+    "locale": "mx"
+  }, {
+    "name": "bbva_digital_application_id",
+    "type": ["string", "null"],
+    "legacyName": "COD_APLICAC",
+    "logicalFormat": "ALPHANUMERIC(3)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "user_name",
+    "type": ["string", "null"],
+    "legacyName": "NAME",
+    "logicalFormat": "ALPHANUMERIC(17)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "cutoff_date",
+    "type": "string",
+    "legacyName": "CUTOFF_DATE",
+    "logicalFormat": "DATE",
+    "deleted": false,
+    "metadata": true,
+    "default": "",
+    "format": "yyyy-MM-dd",
+    "locale": "mx"
+  }]
+}
