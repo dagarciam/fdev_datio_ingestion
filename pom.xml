@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>com.datio.skynet</groupId>
         <artifactId>skynet-parent</artifactId>
-        <version>T-900.4</version>
+        <version>T-1000.1</version>
     </parent>
 
     <groupId>com.datio.fdev</groupId>
@@ -17,13 +18,13 @@
     <name>Parent fdev-ingestion</name>
 
     <properties>
-        <skynet-cli.version>T-900.4</skynet-cli.version>
-        <skynet-maven-plugin.version>T-900.4</skynet-maven-plugin.version>
+        <skynet-cli.version>T-1000.1</skynet-cli.version>
+        <skynet-maven-plugin.version>T-1000.1</skynet-maven-plugin.version>
         <skynet.country>mx</skynet.country>
         <skynet.governance.endpoint>http://datadictionary.bbva.com</skynet.governance.endpoint>
     </properties>
 
-  <modules>
-    <module>fdev</module>
-  </modules>
+    <modules>
+        <module>fdev</module>
+    </modules>
 </project>
