@@ -8,14 +8,14 @@
     </extension>
     <option name="MAIN_CLASS_NAME" value="com.datio.skynet.cli.SkynetCli" />
     <option name="VM_PARAMETERS" value="" />
-    <option name="PROGRAM_PARAMETERS" value="dq-mvp --uuaa &lt;uuaa&gt; --dictionary &lt;dictionary&gt; --target &lt;target&gt; --phases raw,master,custom --tables &lt;table1,table2&gt; --overwrite false" />
+    <option name="PROGRAM_PARAMETERS" value="dq-mvp --uuaa &lt;uuaa&gt; --target &lt;target&gt; --phases staging,raw,master --tables &lt;table1,table2&gt; --overwrite false" />
     <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <option name="ENABLE_SWING_INSPECTOR" value="false" />
     <option name="ENV_VARIABLES" />
     <option name="PASS_PARENT_ENVS" value="true" />
-    <module name="fdev" />
+    <module name="${moduleName}" />
     <envs>
       <env name="SOPHIA_APIKEY" value="" />
     </envs>
