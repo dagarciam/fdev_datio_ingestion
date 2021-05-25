@@ -27,6 +27,7 @@
 
     <modules>
         <module>fdev</module>
+        <module>kdit</module>
     </modules>
 </project>
 
