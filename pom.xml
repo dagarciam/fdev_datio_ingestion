@@ -20,6 +20,7 @@
     <properties>
         <skynet-cli.version>T-1300.2</skynet-cli.version>
         <skynet-maven-plugin.version>T-1300.2</skynet-maven-plugin.version>
+        <skynet.country>mx</skynet.country>
         <skynet.governance.sophia.endpoint>http://datadictionary-pre.bbva.com</skynet.governance.sophia.endpoint>
     </properties>
 
