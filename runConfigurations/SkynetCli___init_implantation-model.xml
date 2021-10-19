@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SkynetCli - init-implantation-model" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.datio.skynet.cli.SkynetCli" />
+    <option name="PROGRAM_PARAMETERS" value="init-implantation-model --uuaa &lt;uuaa&gt; --phase raw|master --jenkins-project &lt;JENKINS_PROJECT&gt;" />
+    <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.datio.skynet.cli.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <module name="${moduleName}" />
+    <envs>
+      <env name="BITBUCKET_APIKEY" value="" />
+      <env name="JENKINS_APIKEY" value="" />
+      <env name="REPOSITORY_USER" value="" />
+      <env name="REPOSITORY_PASSWORD" value="" />
+    </envs>
+    <method />
+  </configuration>
+</component>
