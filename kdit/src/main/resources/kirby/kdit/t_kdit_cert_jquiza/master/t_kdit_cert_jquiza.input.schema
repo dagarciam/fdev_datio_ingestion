@@ -1,7 +1,7 @@
 {
   "namespace": "kdit",
   "name": "t_kdit_cert_jquiza",
-  "doc": "Tabla de ejemplo para el curso de certificacion.",
+  "doc": "Tabla a ingestar en RAW",
   "database": "raw",
   "storageZone": "Rawdata",
   "storageType": "HDFS-Avro",
