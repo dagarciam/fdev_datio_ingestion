@@ -25,11 +25,11 @@
     "default": ""
   }, {
     "name": "current_balance_amount",
-    "type": ["null", "DECIMAL(7,2)"],
+    "type": ["null", "decimal(7,2)"],
     "logicalFormat": "DECIMAL(7,2)",
     "deleted": false,
     "metadata": false,
-    "default": "",
+    "default": null,
     "locale": "mx"
   }, {
     "name": "total_balance_amount",
