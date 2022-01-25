@@ -50,7 +50,7 @@
     "type": "date",
     "logicalFormat": "DATE",
     "deleted": false,
-    "metadata": true,
+    "metadata": false,
     "default": "",
     "format": "yyyy-MM-dd",
     "locale": "mx"
