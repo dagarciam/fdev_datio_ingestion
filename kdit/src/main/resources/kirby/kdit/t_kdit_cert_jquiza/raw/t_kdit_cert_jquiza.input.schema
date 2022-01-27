@@ -1,0 +1,57 @@
+{
+  "namespace": "kdit",
+  "name": "t_kdit_cert_jquiza",
+  "doc": "Tabla de ejemplo para el curso de certificacion.",
+  "database": "raw",
+  "storageZone": "Rawdata",
+  "storageType": "HDFS-Avro",
+  "physicalPath": "/data/raw/kdit/data/academy/t_kdit_cert_jquiza",
+  "partitions": ["request_date"],
+  "type": "record",
+  "fields": [{
+    "name": "account_id",
+    "type": "string",
+    "logicalFormat": "NUMERIC BIG",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "other_information_desc",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(50)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "current_balance_amount",
+    "type": ["string", "null"],
+    "logicalFormat": "DECIMAL(7,2)",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "locale": "mx"
+  }, {
+    "name": "total_balance_amount",
+    "type": ["string", "null"],
+    "logicalFormat": "NUMERIC LARGE",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "total_payment_number",
+    "type": ["string", "null"],
+    "logicalFormat": "NUMERIC SHORT",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "request_date",
+    "type": "string",
+    "logicalFormat": "DATE",
+    "deleted": false,
+    "metadata": true,
+    "default": "",
+    "format": "yyyy-MM-dd",
+    "locale": "mx"
+  }]
+}
